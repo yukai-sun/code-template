@@ -26,6 +26,9 @@ dependencies {
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+	//jwt
+	implementation("com.auth0:java-jwt:4.4.0")
 }
 
 tasks.withType<Test> {
